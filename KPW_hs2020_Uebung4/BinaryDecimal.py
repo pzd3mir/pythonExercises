@@ -4,12 +4,6 @@ Sie diese Binärzahl in die entsprechende Dezimalzahl um."""
 # -*- coding: utf-8 -*-
 # @author: Pirmin Özdemir
 
-x = input()
-
-list  = x.split()
+x = int(input(), 2)
 print(x)
-
-
-
-#def binarytoDecimal():
 
