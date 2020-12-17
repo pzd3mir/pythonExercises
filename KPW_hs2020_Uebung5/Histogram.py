@@ -2,6 +2,7 @@ fobj = open("Histogram.txt", "r")
 
 charStr = fobj.read()
 
+fobj.close
 
 charList = list(charStr)
 
